@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chess Clock</string>
+    <string name="black">BLACK</string>
+    <string name="white">WHITE</string>
+    <string name="default_time">03:00</string>
+    <string name="btn_pause">PAUSE</string>
+    <string name="btn_reset">RESET</string>
+</resources>

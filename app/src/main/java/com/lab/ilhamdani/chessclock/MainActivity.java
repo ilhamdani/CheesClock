@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         //set time
         whiteTotalTime = 20000;
         blackTotalTime = 20000;
-        tvWhiteTimer.setText("03:00");
-        tvBlackTimer.setText("03:00");
+        tvWhiteTimer.setText(getString(R.string.set_time));
+        tvBlackTimer.setText(getString(R.string.set_time));
 
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -178,10 +178,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetTimer(){
         stopTimer();
-        whiteTotalTime = 20000;
-        blackTotalTime = 20000;
-        tvWhiteTimer.setText("03:00");
-        tvBlackTimer.setText("03:00");
+        whiteTotalTime = 180000;
+        blackTotalTime = 180000;
+        tvWhiteTimer.setText(getString(R.string.set_time));
+        tvBlackTimer.setText(getString(R.string.set_time));
     }
 
 }
